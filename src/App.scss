@@ -3,10 +3,48 @@ html{
     scroll-snap-type: y mandatory;
 }
 body{
+    position: relative;
+    width: 100vw;
     background-color: #0c0c1d;
     color: lightgray;
 }
 section{
     height: 100vh;
     scroll-snap-align: center;
+ .close{
+    color: black;
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    z-index: 99;
+    font-weight: bolder;
+    font-size: 22px;
+ }
+ .hamburger{
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    color: black;
+    z-index: 99;
+    font-weight: bolder;
+    font-size: 22px;
+ }
+        .backColor{
+   
+    
+
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100vh;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            cursor: pointer;
+           
+        }
+    
 }
