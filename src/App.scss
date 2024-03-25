@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
